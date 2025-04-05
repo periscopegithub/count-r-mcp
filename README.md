@@ -14,6 +14,7 @@ A simple MCP (Model Context Protocol) server that provides a tool to count occur
 - Simple demonstration tool that counts 'r' occurrences in words
 - Server-Sent Events (SSE) communication showing real-time MCP capabilities
 
+
 - TypeScript 和 Python 的 MCP 服务器示例实现
 - 计算单词中 'r' 出现次数的简单示例工具
 - 通过 Server-Sent Events (SSE) 展示实时 MCP 通信能力
@@ -151,12 +152,13 @@ Add the following to your Cline MCP settings file:
 
 ## Usage | 使用方法
 
-Once connected, you can use the count-r tool in Cline by making requests like:
+Once connected to any MCP client, you can use the count-r tool to count occurrences of the letter 'r' in words. For example, you can make requests like:
 
-连接后，您可以在 Cline 中使用类似以下方式的请求来使用 count-r 工具：
+连接到任何 MCP 客户端后，您可以使用 count-r 工具来计算单词中字母 'r' 的出现次数。例如，您可以发起类似以下的请求：
 
 ```
-count the letter 'r' in "programmer"
+Input: "programmer"
+Output: The word "programmer" contains 3 occurrences of the letter 'r'
 ```
 
 ## License | 许可证
