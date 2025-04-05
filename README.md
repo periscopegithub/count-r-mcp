@@ -157,8 +157,8 @@ Once connected to any MCP client, you can use the count-r tool to count occurren
 连接到任何 MCP 客户端后，您可以使用 count-r 工具来计算单词中字母 'r' 的出现次数。例如，您可以发起类似以下的请求：
 
 ```
-Input: "programmer"
-Output: The word "programmer" contains 3 occurrences of the letter 'r'
+Input: How many letter 'r's are there in the word 'strrawberrrrrry'?
+Output: There are 8 letter 'r's in the word 'strrawberrrrrry'.
 ```
 
 ## License | 许可证
