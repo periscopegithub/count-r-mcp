@@ -11,13 +11,11 @@ A simple MCP (Model Context Protocol) server that provides a tool to count occur
 ## Features | 功能特点
 
 - Example MCP server implementations in both TypeScript and Python
+  TypeScript 和 Python 的 MCP 服务器示例实现
 - Simple demonstration tool that counts 'r' occurrences in words
+  计算单词中 'r' 出现次数的简单示例工具
 - Server-Sent Events (SSE) communication showing real-time MCP capabilities
-
-
-- TypeScript 和 Python 的 MCP 服务器示例实现
-- 计算单词中 'r' 出现次数的简单示例工具
-- 通过 Server-Sent Events (SSE) 展示实时 MCP 通信能力
+  通过 Server-Sent Events (SSE) 展示实时 MCP 通信能力
 
 ## Server Endpoints | 服务器端点
 
@@ -119,14 +117,13 @@ You can connect this MCP server to any MCP client. Here are setup instructions f
 ### Cherry Studio
 
 1. Navigate to Settings > MCP Servers > Add Servers
+   导航到 设置 > MCP 服务器 > 添加服务器
 2. Choose "SSE" for "Type"
+   "类型" 选择 "SSE"
 3. Input "http://127.0.0.1:5000/sse" for "URL"
+   "URL" 输入 "http://127.0.0.1:5000/sse"
 4. Click "Save"
-
-1. 导航到 设置 > MCP 服务器 > 添加服务器
-2. "类型" 选择 "SSE"
-3. "URL" 输入 "http://127.0.0.1:5000/sse"
-4. 点击 "保存"
+   点击 "保存"
 
 ### Cline
 
