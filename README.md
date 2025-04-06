@@ -2,11 +2,11 @@
 
 A simple MCP (Model Context Protocol) server that provides a tool to count occurrences of the letter 'r' in a given word. This repository provides two implementations:
 1. TypeScript implementation using Server-Sent Events (SSE)
-2. Python implementation using FastAPI and SSE
+2. Python implementation using FastMCP and SSE
 
 一个简单的 MCP（Model Context Protocol）服务器，提供计算单词中字母 'r' 出现次数的工具。本仓库提供两种实现方式：
 1. 使用 Server-Sent Events (SSE) 的 TypeScript 实现
-2. 使用 FastAPI 和 SSE 的 Python 实现
+2. 使用 FastMCP 和 SSE 的 Python 实现
 
 ## Features | 功能特点
 
